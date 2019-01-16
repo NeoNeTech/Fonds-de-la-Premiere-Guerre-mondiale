@@ -1,0 +1,31 @@
+#map {
+  /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+  height: 850px;
+  width: auto;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+body {
+  background: url("http://centenaire.org/sites/all/themes/centenaire/images/bg-pattern-general.gif") repeat center top;
+}
+
+.title {
+  font-family: "Lucida Sans", "Lucida Grande", "Lucida sans-serif", "Lucida Sans MS", Lucida, 'lucida sans unicode', Arial, Verdana, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Grande", "Lucida sans-serif", "Lucida Sans MS", Lucida, 'lucida sans unicode', Arial, Verdana, Helvetica, sans-serif;
+}
+
+.easy-button-button {
+  display: block !important;
+}
+
+.tag-filter-tags-container {
+  left: 30px;
+}
